@@ -1,0 +1,208 @@
+@font-face { 
+	font-family: Montserrat; 
+	src: url('../fonts/ofont.ru_Montserrat.ttf');
+	font-family: Montserrat SemiBold; 
+	src: url('../fonts/ofont.ru_Montserrat(1).ttf');
+}
+body{
+ 	font-family: Montserrat;
+	padding: 0;
+	margin: 0;
+}
+div{
+	box-sizing: border-box;
+}
+.hero{
+	background: url(../img/bg1.jpg) no-repeat center top/cover;
+	margin: 0 auto;
+	height: 100vh;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.heading{
+	padding-top: 170px;
+}
+h1{
+	font-size: 64px;
+	font-weight: bold;
+	color: #ededed;
+	font-family: Montserrat SemiBold;
+	margin: 0;
+	line-height: 1em;
+}
+.intro{
+	font-family: Montserrat; 
+	font-size: 27px;
+	color: #ededed;
+	margin-top: 10px;
+	line-height: 1em;
+	letter-spacing: 0.05em;
+}
+.button{
+	background: #1A2022;
+	color: #fff;
+	display: block;
+	width: 390px;
+	padding: 20px 0;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 19px;
+	letter-spacing: 0.1em;
+}
+header{
+	background-color: #1F3334;
+	height: 100vh;
+}
+.logo{
+	display: block;
+	padding-top: 34px;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: Montserrat SemiBold;
+}
+.menu{
+	display:flex;
+	justify-content: space-between;
+}
+.first{
+	color: #fff;
+}
+.second{
+	color: rgba(237, 237, 237, 0.6);
+}
+.item1{
+	padding-top: 34px;
+}
+.num{
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+	padding-right: 25px;
+}
+.button1{
+	border: 1px solid white;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 19px;
+	letter-spacing: 0.1em;
+	padding: 8px;
+}
+h2{
+	color: #fff;
+	font-size: 40px;
+	font-family: Montserrat SemiBold;
+	padding-top: 190px;
+	margin: 0;
+}
+.team{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.items_first{
+	margin-top: 50px;
+}
+.items_first_one{
+	color: #fff;
+	font-size: 96px;
+	font-family: Montserrat SemiBold;
+}
+.items_first_two{
+	color: rgba(237, 237, 237, 0.6);
+	font-size: 32px;
+	font-family: Montserrat SemiBold;
+	margin-left: 5px;
+}
+.items_first_three{
+	color: #EDEDED;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+.usl{
+	color: #333;
+	font-size: 40px;
+	font-family: Montserrat SemiBold;
+	text-align: center;
+}
+.services{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.services_item{
+	margin-bottom: 80px;
+}
+.services_item h4{
+	color: #333;
+	font-size: 20px;
+	font-family: Montserrat SemiBold;
+}
+
+#project{
+	height: 100vh;
+}
+.project{
+	display: flex;
+	justify-content: space-between;
+}
+#square {
+    width: 50%;
+    height: 100vh;
+	background: #1F3334;
+}
+.s-img{
+	padding:82px 0 0 50px;
+}
+.direction{
+	padding-top: 100px;
+	padding-right: 86px;
+}
+.pro{
+	color: #333;
+	font-size: 40px;
+	font-family: Montserrat SemiBold;
+}
+.dp{
+	color: #333;
+	font-size: 18px;
+}
+#sales{
+	height: 100vh;
+}
+.sales{
+	display: flex;
+	justify-content: space-between;
+}
+.sq{
+	position: relative;
+}
+.sq-img{
+	position: absolute;
+	top: 82px;
+	left: -50px;
+}
+.s{
+	padding-top: 80px;
+	padding-left: 86px;
+}
+.sal{
+	color: #333;
+	font-size: 40px;
+	font-family: Montserrat SemiBold;
+}
+.sl{
+	color: #333;
+	font-size: 18px;
+}
+.log{
+	margin-top: 150px;
+}
+.lo{
+	margin-right: 20px;
+	margin-left: 20px;
+}
